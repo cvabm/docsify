@@ -1,0 +1,9 @@
+/* 设置代码块的文字大小 */
+.markdown-section pre code {
+    font-size: 14px; /* 你可以根据需要调整这个值 */
+}
+
+/* 设置行内代码的文字大小 */
+.markdown-section code {
+    font-size: 14px; /* 你可以根据需要调整这个值 */
+}
