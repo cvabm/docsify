@@ -1,17 +1,15 @@
 <!-- _sidebar.md -->
-* [笔记](/index2.md)
-* 博客工具
-  * [docsify](/notes/docsify.md) <!--注意这里是相对路径-->
-  * [内网穿透](/notes/nat.md)
-* 第三方库
-  * [minio](/notes/minio.md)
 
-* 前端
-  * [常用框架](/notes/command.md)
-* 后端
-  * [node](/notes/node.md)
-  * [linux](/notes/linux.md)
-  * [linux常用命令](/notes/linux-command.md)
-  * [python](/notes/python.md)
-* Android
-  * [应用市场](/notes/android/appstore.md)
+* [Android](/notes/android/index.md)
+* [音视频](/notes/media/index.md)
+* [前端](/notes/front/index.md)
+* [后端](/notes/back/index.md)
+* [网络](/notes/net/index.md)
+* [第三方服务](/notes/server/index.md)
+* [博客/建站](/notes/website/index.md)
+* [c++](/notes/c/index.md)
+* [windows](/notes/windows/index.md)
+* [linux](/notes/linux/index.md)
+* [python](/notes/python/index.md)
+* [java](/notes/java/index.md)
+

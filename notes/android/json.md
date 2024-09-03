@@ -1,0 +1,3 @@
+- gson
+- fastjson
+- jackson
