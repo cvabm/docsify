@@ -9,3 +9,4 @@
 #### 相关项目
 - https://github.com/cvabm/ics-openvpn
 - https://github.com/cvabm/OpenVPNDemo
+- https://github.com/schwabe/ics-openvpn

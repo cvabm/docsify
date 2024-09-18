@@ -23,22 +23,22 @@
   - [终端](#终端)
   - [实用程序](#实用程序)
   - [安全](#安全)
+  - [docker](/notes/tools/docker.md)
+  - [笔记工具比较](/notes/tools/笔记工具比较.md)
+  - [wget](/notes/tools/wget.md)
+  - [其他开发工具](/notes/tools/其他开发工具.md)
+  - [mac常用工具和配置](/notes/tools/mac.md)
 - [配置与安装](#配置与安装)
   - [Windows 10 设置](#windows-10-设置)
   - [Windows 8 设置](#windows-8-设置)
-- [杂项](#杂项)
+
+
 - [软件列表](#软件列表)
-- [国产（中国）软件](#国产中国软件)
-- [论坛](#论坛)
-  - [Windows](#windows)
-  - [IRC 频道](#irc-频道)
-  - [Reddit](#reddit)
-- [贡献](#贡献)
-- [版权](#版权)
+
 
 ## 常用
 - [Irfanview](https://www.irfanview.com/) 比windows自带快，缺点不美观
-- [chrome](https://www.google.com/chrome/)
+- [chrome](/notes/tools/chrome.md)
 - [clash-meta](https://github.com/MetaCubeX/ClashMetaForAndroid)
 - [7zip](https://www.7-zip.org/)
 - [wps](https://www.wps.cn/)
@@ -58,7 +58,7 @@
 - [xmind](https://xmind.cn/)
 - [postman](https://www.postman.com/)
 - [Insomnia](https://github.com/Kong/insomnia) 免登录，支持websocket
-- [wireshark](https://www.wireshark.org/)
+- [wireshark](/notes/tools/wireshark.md)
 - [notion](https://www.notion.so/)
 - [雷神模拟器](http://www.lsplayer.com/)
 - [bluestack](https://www.bluestacks.com/)
@@ -73,7 +73,7 @@
 - [xshell]
 - [FileZilla]
 - [jcpicker] 阿里云盘
-- [git](https://git-scm.com/)
+- [git](/notes/tools/git.md)
 - [PatchViewer](https://github.com/megatops/PatchViewer) 查看 git 修改部分
 - [jdk](https://www.oracle.com/java/technologies/downloads/) oracle-java下载
 - [node](https://nodejs.org/)
@@ -84,10 +84,11 @@
 - [阿里云盘](https://www.alipan.com/)
 - [escrcpy](https://github.com/viarotel-org/escrcpy) 电脑控制手机
 ## 电脑控制手机几种方式
-- escrcpy
+- https://github.com/viarotel-org/escrcpy
 - android studio - running devices -点击+ - 选择设备即可
 - anlink 有单独控制按键
-
+- https://github.com/Genymobile/scrcpy
+- https://github.com/Genymobile/gnirehtet Gnirehtet为Android提供反向网络共享
 ## 应用程序
 
 ### 音频
@@ -100,7 +101,7 @@
 
 - [mpv](http://mpv.io/) -媒体播放器。 (https://github.com/mpv-player/mpv)
 - [PotPlayer](http://potplayer.daum.net/) - 多媒体播放器，具有广泛的编解码器集合，它还为用户提供大量配置选项。
-- [VLC](http://www.videolan.org/vlc/index.html) - 多媒体播放器和框架，用于播放 DVD，音频 CD，VCD 和各种流协议。 (https://github.com/videolan/vlc)
+- [vlc播放器](/notes/tools/vlc.md)
 ### 录屏
 - 土豆录屏（好用） - 蓝奏云
 - [ScreenToGif](http://www.screentogif.com/) - 它允许你录制屏幕的一部分区域并保存为 gif 或视频
@@ -111,7 +112,7 @@
 
 - [Discord](https://discordapp.com) - Discord 是免费的语音和文本聊天客户端，适合玩家和非玩家。您可以从浏览器使用它，它可以在 iOS，Android，Windows，Mac 和 Linux 上使用。
 - [Telegram](https://desktop.telegram.org/) - 一个专注于速度和安全性的消息应用程序，它速度极快，操作简单且免费。(https://telegram.org/apps)
-
+  - https://github.com/DrKLO/Telegram 源码
 ### 压缩
 
 - [7-Zip](http://www.7-zip.org/) - 用于处理压缩包的开源 Windows 实用程序。完美支持 7z，ZIP，GZIP，BZIP2 和 TAR 的全部特性，其他格式也可解压缩。 (http://www.7-zip.org/download.html)
@@ -162,7 +163,7 @@
 - [塔](https://www.git-tower.com/windows)-塔-Mac 和 Windows 上功能最强大的 Git 客户端。
 - [Vagrant](https://www.vagrantup.com/)-用于构建和管理虚拟机的工具。 (https://github.com/mitchellh/vagrant)
 - [速度](http://velocity.silverlakesoftware.com/)-脱机 API 文档工具。 （例如适用于 macOS 的[Dash](https://kapeli.com/dash)）
-- [Visual Studio 代码](https://code.visualstudio.com/)-轻量级源代码编辑器。 (https://github.com/Microsoft/vscode)
+- [vscode](/notes/tools/vscode.md)
 - [Visual Studio](https://www.visualstudio.com/)-最终的 Microsoft 开发人员工具。
 - [Wamp](http://www.wampserver.com/en/)-Web 开发环境。
 - [WinSCP](https://winscp.net/)-免费的开源 SFTP，FTP，WebDAV 和 SCP 客户端。
@@ -220,7 +221,7 @@
 
 ### 集成开发环境
 
-- [Android Studio](https://developer.android.com/studio/index.html) - Android 的官方 IDE , 基于 IntelliJ 的 IDEA。 (https://sites.google.com/a/android.com/tools/)
+- [android studio](/notes/tools/android%20studio.md)
 - [CLion](https://www.jetbrains.com/clion/) - JetBrain 出品的跨平台的 IDE，支持 C/C++开发，使用 CMake 构建。
 - [Eclipse](https://eclipse.org/downloads/) - 一款功能强大的 IDE。 (https://git.eclipse.org/c/)
 - [IntelliJ IDEA](https://www.jetbrains.com/idea/) - JetBrain 出品的跨平台的 IDE，现代化的 Java IDE。
@@ -259,6 +260,7 @@
 - [qBittorrent](https://qbittorrent.org/) - P2P bittorrent 下载软件.
 - [Rufus](https://rufus.akeo.ie/) - 创建 USB 启动盘。
 - [Unlocker](http://www.softpedia.com/get/System/System-Miscellaneous/Unlocker.shtml) - 解除无法删除文件的锁定。
+- [delapp](https://github.com/differentrain/Delapp) - 删除被占用的文件
 - [Windows 终端命令的 A-Z](http://ss64.com/nt/)
 - [trafficmonitor] 显示当前网速
 - [clumsy] 模拟弱网环境(阿里云盘)
@@ -272,6 +274,8 @@
 
 - [neatdownloadmanager](https://www.neatdownloadmanager.com/)
 - [freedownloadmanager](https://www.freedownloadmanager.org/zh/) -[m3u8 合成下载](http://blog.luckly-mjw.cn/tool-show/m3u8-downloader/index.html)
+- https://github.com/orestonce/m3u8d
+- https://github.com/bigintpro/csdn_downloader csdn资源付费下载
 
 ### 安全
 
@@ -282,15 +286,7 @@
 - [NetLimiter]() - 网络流量控制和分析工具。
 
 ### 代理
-
-- [clash-meta](https://github.com/MetaCubeX/ClashMetaForAndroid)
-- [sing-box](https://github.com/SagerNet/sing-box)
-- [Hiddify Next](https://github.com/hiddify/hiddify-next/blob/main/README_cn.md)
-- [v2rayNG](https://github.com/2dust/v2rayNG) 电脑版为v2rayN
-- Linux推荐sing-box、clash-verge
-- [nekobox-android](https://github.com/MatsuriDayo/NekoBoxForAndroid) 支持的协议多
-- [nekobox-windows](https://github.com/MatsuriDayo/nekoray) 支持的协议多
-
+- [翻墙工具](/notes/tools/vpn.md)
 ## 配置与安装
 
 ### Windows 10 设置

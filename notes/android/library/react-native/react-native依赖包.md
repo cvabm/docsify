@@ -1,11 +1,7 @@
 # reagt-native依赖包
 
-slug: react-native-plugin
-status: Published
-tags: react
-summary: 添加依赖、发布npm
-type: Post
-
+- [发布npm](#发布-npm)
+- [发布jitpack](#发布-jitpack)
 ## 发布 npm
 
 1、注册：
@@ -209,3 +205,6 @@ Ant Design Mobile：这是一个 UI 组件库，提供了丰富的 UI 组件和�
 React Native Material Kit：这是一个 Material Design 风格的组件库，提供了丰富的基础组件和交互式组件，可以用于创建符合 Material Design 风格的应用程序。
 
 React Native UI Kitten：这是一个 UI 组件库，提供了丰富的 UI 组件和主题，可以用于创建漂亮、易用的应用程序。
+
+https://github.com/react-native-progress-view/progress-bar-android 
+https://github.com/mockingbot/react-native-zip-archive

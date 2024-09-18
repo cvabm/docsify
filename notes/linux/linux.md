@@ -299,6 +299,7 @@ apk 管理
 - `adb -s emulator-5555 install helloWorld.apk`
 - `adb install -r`覆盖已安装
 - `adb install -t`允许安装 app-debug.apk 测试包
+- `adb -s device_id install 1.apk` 指定设备
 - `pm disable PACKAGE_OR_COMPONENT` 冻结应用程序
 - `pm enable PACKAGE_OR_COMPONENT` 解冻应用程序
 

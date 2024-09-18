@@ -1,12 +1,6 @@
 # android studio
 
-slug: android_studio
-status: Published
-tags: 开发工具
-summary: 使用教程
-type: Post
 
-[[toc]]
 
 ## 搜索中文
 

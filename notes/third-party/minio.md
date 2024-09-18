@@ -67,6 +67,12 @@
     
     上传目录到桶
     mc cp /myfolder minio/bucket --recursive
+
+    查看仓库是否是public
+    mc anonymous get minio/bucket
+
+    设置权限
+    mc anonymous set public minio/bucket
     ```
     ```
      常用命令

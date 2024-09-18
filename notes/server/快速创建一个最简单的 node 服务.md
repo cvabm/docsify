@@ -35,3 +35,7 @@ node server.js
 ```
 
 4、浏览器或 PostMan 访问地址， [http://localhost:3000/api/getList](http://localhost:3000/api/getList)
+
+
+## 方式二
+- `npx http-server .`

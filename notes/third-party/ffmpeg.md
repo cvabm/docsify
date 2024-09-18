@@ -67,3 +67,7 @@ ffmpeg -re -stream_loop -1 -i .\720.mp4 -vcodec libx264 -acodec aac -f flv  rtmp
 查看支持的滤镜（也就是-vf后面可以接的参数）:
 命令：ffmpeg -filters > filters.txt
 ```
+
+## 其他
+- https://github.com/xufuji456/FFmpegAndroid
+- https://github.com/tanersener/mobile-ffmpeg

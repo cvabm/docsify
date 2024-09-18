@@ -8,3 +8,5 @@
 - 下载客户端sunny.exe 
 - 执行上述命令 ，该隧道一行即可显示状态，通过提供的域名即可外网访问
 ## 
+
+- https://github.com/luckjiawei/frpc-desktop

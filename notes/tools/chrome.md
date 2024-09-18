@@ -1,11 +1,5 @@
 # chrome
 
-date: October 30, 2023
-slug: chrome
-status: Published
-tags: web
-type: Post
-
 ### 卸载APP
 
 `chrome://apps`
@@ -146,3 +140,5 @@ chrome://inspect/#devices
 - [沙拉查词-聚合词典划词翻译](https://chrome.google.com/webstore/detail/cdonnmffkdaoajfknoeeecmchibpmkmg)
 - [简悦 - SimpRead](https://chromewebstore.google.com/detail/%E7%AE%80%E6%82%A6-simpread/ijllcpnolfcooahcekpamkbidhejabll)
 - [油猴](https://chromewebstore.google.com/detail/%E7%AF%A1%E6%94%B9%E7%8C%B4/dhdgffkkebhmkfjojejmpbldmpobfkfo)
+
+- https://github.com/dessant/buster 验证码解析
