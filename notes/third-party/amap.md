@@ -6,7 +6,7 @@
 #### 离线地图瓦片下载
 - https://github.com/Hxy1992/MapDownload
 - https://github.com/lhq-github/tile-loader
-
+- https://gitee.com/CrimsonHu/java_map_download
 
 #### gps测试app
 - https://github.com/barbeau/gpstest

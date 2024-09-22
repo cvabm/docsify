@@ -14,6 +14,16 @@
 - h264 -> ts
 `ffmpeg -re -i d:\videos\1080P.264 -vcodec copy -f rtp_mpegts rtp://127.0.0.1:1234`
 参考：https://zhuanlan.zhihu.com/p/450527182
+- ffplay低延迟播放
+`ffplay.exe -fflags nobuffer -flags low_delay -framedrop -strict experimental -rtsp_transport tcp rtsp://admin:xxxx@10.166.5.11`
+- 截屏
+`ffmpeg -rtsp_transport tcp -hide_banner -i "rtsp://xxx" -y -r 0.5 -t 1 -q:v 2 "E:/test.jpeg"`
+- 录像
+`ffmpeg -i "rtsp://xxx" -y -f mp4 -t 5 -s 1280x720 "E:/record.mp4"`
+- 录像(如果花屏，指定tcp传输)
+`ffmpeg -rtsp_transport tcp -i "rtsp://xxx" -y -f mp4 -t 5 -s 1280x720 "E:/record.mp4"`
+- 去水印（添加水印用IrfanView）
+`ffmpeg -i output.mp4 -vf "delogo=x=696:y=449:w=75:h=32" -c:a copy water1.mp4`
 
 ### ffmpeg使用
 

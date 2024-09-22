@@ -1,6 +1,5 @@
 ### 第三方服务
 
-* [高德](/notes/third-party/amap.md)
 * [minio](/notes/third-party/minio.md)
 * [casaos](/notes/third-party/casaos.md)
 * [ffmpeg](/notes/third-party/ffmpeg.md)
