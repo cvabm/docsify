@@ -4,7 +4,7 @@
 
 1、如何文件无音频，IjkPlayerManager 无法倍速，需改为其他两种：
 
-```
+```java
 PlayerFactory.setPlayManager(Exo2PlayerManager.class);
 或
 PlayerFactory.setPlayManager(SystemPlayerManager.class);

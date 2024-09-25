@@ -12,3 +12,14 @@
 - https://github.com/cvabm/nobelium
 - https://github.com/cvabm/vercel
 - https://github.com/cvabm/algolia
+
+### 部署
+- https://github.com/dullage/flatnotes
+
+### 免费服务
+- Vercel
+- PikaPods
+- render
+- Heroku
+- Netlify
+- GitHub Pages
