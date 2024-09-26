@@ -37,6 +37,8 @@
 
 
 ## 常用
+- utools 
+- 酷呆桌面 
 - [Irfanview](https://www.irfanview.com/) 比windows自带快，缺点不美观
 - [chrome](/notes/tools/chrome.md)
 - [clash-meta](https://github.com/MetaCubeX/ClashMetaForAndroid)
@@ -82,11 +84,10 @@
 - [vfox](https://vfox.lhan.me/zh-hans/) jdk版本切换工具
 - [flipper](https://fbflipper.com/) 调试 react native 工具
 - [阿里云盘](https://www.alipan.com/)
-- [escrcpy](https://github.com/viarotel-org/escrcpy) 电脑控制手机
 ## 电脑控制手机几种方式
-- https://github.com/viarotel-org/escrcpy
+- anlink 有单独控制按键(推荐)
+- [escrcpy](https://github.com/viarotel-org/escrcpy) 支持多个设备
 - android studio - running devices -点击+ - 选择设备即可
-- anlink 有单独控制按键
 - https://github.com/Genymobile/scrcpy
 - https://github.com/Genymobile/gnirehtet Gnirehtet为Android提供反向网络共享
 ## 应用程序
@@ -105,7 +106,7 @@
 ### 录屏
 - 土豆录屏（好用） - 蓝奏云
 - [ScreenToGif](http://www.screentogif.com/) - 它允许你录制屏幕的一部分区域并保存为 gif 或视频
-- - [screen2exe] 录屏生成 exe 文件(阿里云盘)
+- [screen2exe] 录屏生成 exe 文件(阿里云盘)
 - 在线录屏 `https://recordscreen.io/`
 - ocam、班迪录屏（这两个都挺好用） 阿里云盘
 ### 聊天客户端

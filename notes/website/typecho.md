@@ -1,13 +1,4 @@
 # typecho
-
-slug: typecho
-status: Published
-tags: other
-summary: typecho部署
-type: Post
-
-## typecho部署
-
 [http://zhangxuetu.cn/archives/1773](http://zhangxuetu.cn/archives/1773)
 
 ### 主题

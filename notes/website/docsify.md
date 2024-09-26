@@ -5,6 +5,7 @@
 npm install -g docsify-cli
 docsify init ./docs
 docsify serve docs 或 docs/docsify serve
+找不到docsify命令：npx docsify ....
 
 ```
 
@@ -14,4 +15,5 @@ docsify serve docs 或 docs/docsify serve
 - 主题： https://jhildenbiddle.github.io/docsify-themeable/#/ 
 - 插件
     - https://github.com/iPeng6/docsify-sidebar-collapse
+    - https://github.com/xxxxue/Docsify-Build-Sidebar
 

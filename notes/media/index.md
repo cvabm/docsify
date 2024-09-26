@@ -1,12 +1,12 @@
 # 音视频
-
-- [视频播放SDK](/notes/media/player.md)
+- [28181](/notes/media/28181.md)
+- [播放器](/notes/media/player.md)
 - [webrtc](/notes/media/webrtc.md)
 - [sip](/notes/media/sip.md)
-- [sip](/notes/media/sdp.md)
+- [sdp](/notes/media/sdp.md)
+
+### 其他
 - [Windows本地搭建rtmp推流服务](https://zhuanlan.zhihu.com/p/630493216)
-
-
 - https://github.com/zhongwcool/nginx-rtmp-win64 exe程序，一键开启rtmp
 - https://github.com/cvabm/Send_H264_File_RTP 
     - 将本地E:/record2.h264文件分片封装为rtp发送到远端udp端口
@@ -14,15 +14,10 @@
     - 获取android摄像头或屏幕共享流发送到远端udp端口
 - https://github.com/cvabm/JrtpLibDemo
     - 推送摄像头或屏幕共享H264数据到socket
-- [28181](/notes/media/28181.md)
 - https://github.com/TomAdd/RTPServerDemo android作为服务端，发送摄像头视频流给调用者
 - https://github.com/dourgulf/CameraStreaming Android RTMP直播的例子
 - https://github.com/JeffreyLau/AndroidRTSPLib android作为rtsp服务端
-
 - https://github.com/ShouChenICU/WebCamera  基于WebRTC的点对点网络摄像头实时监控工具
-
-
-
 - https://github.com/leixiaohua1020/simplest_mediadata_test  c++源码，关于对音视频数据的处理
 
 #### 屏幕共享/投屏

@@ -1,3 +1,4 @@
+## windows
 ### 常用命令
 
 - `start .`或者`explorer .`打开当前路径的文件夹

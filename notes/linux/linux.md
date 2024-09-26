@@ -327,7 +327,8 @@ apk 管理
 - `chmod 777`最高权限
 - `chmod 999`有一定安全性，推荐
 - `echo 'abcdef' > gaga.txt`向 gaga.txt 文件里面写入内容 abcdef
-- `df /mnt/sdcard` 列出来一个目录的空间状态信息
+- `df -h /mnt/sdcard` 列出来一个目录的空间状态信息
+- `du -h file.ext` 获取文件大小信息
 - `sudo apt-get remove` 卸载软件
 
 - `dd if=/dev/zero of=zero_file bs=1M count=1024`全零文件：内容全为零字节，实际占用磁盘空间与文件大小相同。
