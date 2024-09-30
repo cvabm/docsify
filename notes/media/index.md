@@ -4,6 +4,7 @@
 - [webrtc](/notes/media/webrtc.md)
 - [sip](/notes/media/sip.md)
 - [sdp](/notes/media/sdp.md)
+- [摄像头](/notes/media/camera.md)
 
 ### 其他
 - [Windows本地搭建rtmp推流服务](https://zhuanlan.zhihu.com/p/630493216)

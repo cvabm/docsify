@@ -1,4 +1,4 @@
-### 软件工具
+# 软件工具
 
 - [常用软件](#常用)
 - [应用程序](#应用程序)
@@ -47,7 +47,9 @@
 - [顶点工具箱]
 - [everthing](https://www.voidtools.com/zh-cn/)
 - [向日葵](https://sunlogin.oray.com/)
-- [parsec](https://parsec.app/) 画质清晰比向日葵流畅
+- [parsec](https://parsec.app/) 
+    - 画质清晰比向日葵流畅
+    - [无法打开时，需配置代理](https://www.bilibili.com/read/cv16977324/)
 - [todesk](https://www.todesk.com/)
 - [搜狗输入法](https://shurufa.sogou.com/)
 - [geek](https://geekuninstaller.com/download)
@@ -126,7 +128,7 @@
 
 ### 数据恢复
 
-- [EaseUS Data Recovery Wizard v11.8.0 激活版]()
+- EaseUS Data Recovery Wizard v11.8.0 激活版（阿里云盘）
 
 ### 开发者工具
 

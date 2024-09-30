@@ -15,7 +15,7 @@
 `ffmpeg -re -i d:\videos\1080P.264 -vcodec copy -f rtp_mpegts rtp://127.0.0.1:1234`
 参考：https://zhuanlan.zhihu.com/p/450527182
 - ffplay低延迟播放
-`ffplay.exe -fflags nobuffer -flags low_delay -framedrop -strict experimental -rtsp_transport tcp rtsp://admin:xxxx@10.166.5.11`
+`ffplay -fflags nobuffer -flags low_delay -framedrop -strict experimental -rtsp_transport tcp rtsp://admin:xxxx@10.166.5.11`
 - 截屏
 `ffmpeg -rtsp_transport tcp -hide_banner -i "rtsp://xxx" -y -r 0.5 -t 1 -q:v 2 "E:/test.jpeg"`
 - 录像
