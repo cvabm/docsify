@@ -18,7 +18,7 @@
      * https://github.com/r0ysue/r0capture
   * [三方依赖](/notes/android/other/library/index.md)
   * [地图相关](/notes/android/other/map.md)
-
+  * [JNI](/notes/android/other/jni.md)
 ### 完整app
 - https://github.com/MattLjp/LinphoneCall 
 - https://github.com/BelledonneCommunications/linphone-android
