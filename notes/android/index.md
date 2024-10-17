@@ -9,7 +9,6 @@
   * [Android音视频](/notes/android/other/Android音视频编解码.md)
   * [camera](/notes/android/other/camera.md)
   * [手机适配](/notes/android/other/adapt/index.md)
-  * [gps定位](/notes/android/other/gps.md)
   * [gradle](/notes/android/other/gradle.md)
   * [小程序开发](/notes/android/other/小程序开发.md)
   * [推送](/notes/android/other/push.md)
@@ -17,7 +16,8 @@
   * [1.1 APP各种抓包教程](https://www.ddosi.org/app-packet-captures)
      * https://github.com/r0ysue/r0capture
   * [三方依赖](/notes/android/other/library/index.md)
-  * [地图相关](/notes/android/other/map.md)
+  * [地图相关](/notes/android/map/index.md)
+  * [调试运行](/notes/android/other/debug.md)
 
 ### 完整app
 - https://github.com/MattLjp/LinphoneCall 

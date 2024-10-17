@@ -1,9 +1,18 @@
 * [cmake](/notes/c/cmake.md)
 * [c基础](/notes/c/c基础.md)
+* [c标准库](/notes/c/C标准库.md)
+* [c++标准库](/notes/c/C++标准库.md)
+* [vscode配置c++环境](/notes/c/vscode_c.md)
+* [boost库](/notes/c/boost.md)
 
 - https://github.com/cvabm/LearnCApp
     - android引用ndk
 - https://github.com/royqh1979/RedPanda-CPP 开发工具
+
+### 在线编译器
+- https://replit.com/@cvabm/cDemo
+- github codespace
+- 
 
 #### 学习资料
 - https://github.com/applenob/Cpp_Primer_Practice 

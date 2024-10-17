@@ -11,3 +11,4 @@
 * [linux](/notes/linux/index.md)
 * [python](/notes/python/index.md)
 * [java](/notes/java/index.md)
+* [java](/notes/compute.md)

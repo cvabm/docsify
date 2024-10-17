@@ -1,14 +1,7 @@
 # 高德地图问题
-### 离线地图瓦片下载
-- https://github.com/Hxy1992/MapDownload
-- https://github.com/lhq-github/tile-loader
-- https://gitee.com/CrimsonHu/java_map_download
 
-### gps测试app
-- https://github.com/barbeau/gpstest
-- https://github.com/mendhak/gpslogger
 
-### 经纬度(wgs84, gcj02, bd09)坐标转换
+## 经纬度(wgs84, gcj02, bd09)坐标转换
 - https://atool.vip/lnglat/
 - https://github.com/MasterInQuestion/coordTransform/raw/master/main.go
 ```java
@@ -175,9 +168,7 @@ public class PositionUtil {
 
 ```
 
-### 其他
+## 参考项目
 - https://github.com/D10NGYANG/DLMapboxUtil mapbox包含离线地图的demo
 - https://github.com/amapapi/Android_3D_Demo 官方Demo
-
-- https://github.com/atlasdatatech/tiler
 - https://github.com/HubertYoung/AmapCode 高德源码反编译

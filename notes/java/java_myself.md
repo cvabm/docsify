@@ -1,11 +1,6 @@
 # java_myself
 
-slug: java_myself
-status: Published
-tags: java
-type: Post
-
-[[toc]] ### 解析key值不固定的json
+### 解析key值不固定的json
 
 ```
     JsonObject data = new Gson().fromJson(body, JsonObject.class);
@@ -20,7 +15,17 @@ type: Post
         Double price = bean.getPrice();
     }
 ```
+```
+我们希望将该二进制数的第3位（从右到左）设置为0，其他位保持不变。我们可以创建一个掩码，只有第3位设置为0，其他位都是1，然后将掩码与原始数进行逻辑与运算。这将导致第3位被强制设置为0，而其他位保持不变。
+  // 原始二进制数
+       int binary = 0b10110101;
+       // 控制特定位的掩码
+       int mask = ~(1 << 2);  // 第3位 (从右到左) 置零
+       // 应用掩码
+       int result = binary & mask;
+       System.out.println("Result: " + Integer.toBinaryString(result));
 
+```
 ## 其他
 
 - `补码`
