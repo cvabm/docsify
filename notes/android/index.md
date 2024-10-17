@@ -18,7 +18,8 @@
   * [三方依赖](/notes/android/other/library/index.md)
   * [地图相关](/notes/android/map/index.md)
   * [调试运行](/notes/android/other/debug.md)
-
+  * [地图相关](/notes/android/other/map.md)
+  * [JNI](/notes/android/other/jni.md)
 ### 完整app
 - https://github.com/MattLjp/LinphoneCall 
 - https://github.com/BelledonneCommunications/linphone-android

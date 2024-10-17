@@ -1,7 +1,7 @@
 # webrtc
 - https://github.com/cvabm/webrtc
 - https://github.com/cvabm/jitsi-meet
-- https://github.com/googlecodelabs/webrtc-web
+- https://github.com/googlecodelabs/webrtc-web 包含6个web例子，npm install后可直接测试
 - https://github.com/webrtc/apprtc
 - https://github.com/njovy/AppRTCDemo
 - https://github.com/LingyuCoder/SkyRTC
