@@ -5,6 +5,26 @@
 - https://github.com/sigoden/dufs ，支持上传下载，执行exe即可
 - http://iscute.cn/chfs 跟上边那个差不多
 - https://github.com/drakkan/sftpgo exe可执行程序,功能复杂,常驻后台
+## 设置镜像源
+```
+npm config get registry
+npm set registry https://registry.npmjs.org/
+```
+## 设置代理
+```
+// 查看代理
+npm config get proxy
+npm config get https-proxy
+
+// 设置代理
+npm config set proxy http://127.0.0.1:8080
+npm config set https-proxy http://127.0.0.1:8080
+
+// 删除代理
+npm config delete proxy
+npm config delete https-proxy
+
+```
 
 
 ## 快速创建一个最简单的 node 服务

@@ -17,9 +17,9 @@
 - https://github.com/dullage/flatnotes
 
 ### 免费服务
-- Vercel
+- Netlify 推荐,国内可访问
+- Vercel 推荐，部署速度快，被墙
 - PikaPods
 - render
 - Heroku
-- Netlify
 - GitHub Pages

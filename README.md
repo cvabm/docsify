@@ -31,7 +31,7 @@
 - [配置与安装](#配置与安装)
   - [Windows 10 设置](#windows-10-设置)
   - [Windows 8 设置](#windows-8-设置)
-
+  - [chsrc](https://github.com/RubyMetric/chsrc) 换源， Linux 操作系统、编程语言、软件更换最快的国内源
 
 - [软件列表](#软件列表)
 
@@ -106,11 +106,13 @@
 - [PotPlayer](http://potplayer.daum.net/) - 多媒体播放器，具有广泛的编解码器集合，它还为用户提供大量配置选项。
 - [vlc播放器](/notes/tools/vlc.md)
 ### 录屏
+- utools 插件"录屏" -- 首选
 - 土豆录屏（好用） - 蓝奏云
 - [ScreenToGif](http://www.screentogif.com/) - 它允许你录制屏幕的一部分区域并保存为 gif 或视频
 - [screen2exe] 录屏生成 exe 文件(阿里云盘)
 - 在线录屏 `https://recordscreen.io/`
 - ocam、班迪录屏（这两个都挺好用） 阿里云盘
+- `https://github.com/vkohaupt/vokoscreenNG` 开源，好用
 ### 聊天客户端
 
 - [Discord](https://discordapp.com) - Discord 是免费的语音和文本聊天客户端，适合玩家和非玩家。您可以从浏览器使用它，它可以在 iOS，Android，Windows，Mac 和 Linux 上使用。
@@ -132,35 +134,21 @@
 
 ### 开发者工具
 
-- [用于 SQLite 的数据库浏览器](http://sqlitebrowser.org/)-用于创建，设计和编辑与 SQLite 兼容的数据库文件的高质量，可视，开放源代码工具[ ](http://sqlitebrowser.org/)
 - [Fiddler](http://www.telerik.com/fiddler)-Web 调试代理。
 - [FileZilla](https://filezilla-project.org/)-FTP，FTPS 和 SFTP 客户端。 (https://download.filezilla-project.org/client/)
-- [Fork](https://git-fork.com/)-适用于 Windows（和 Mac）的快速友好的 Git 客户端。
-- [Git 扩展程序](https://gitextensions.github.io/)-一个功能强大且易于使用的 Git UI。 (https://github.com/gitextensions/gitextensions)
-- [GitHub Desktop](https://desktop.github.com/)-GitHub Desktop 是一个基于 Electron 的开源 GitHub 应用。 (https://github.com/desktop/desktop)
-- [GitKraken](https://www.gitkraken.com/)-一个漂亮的跨平台 Git 客户。
-- [HeidiSQL](http://www.heidisql.com/)-适用于 MySQL，MariaDB，Microsoft SQL Server 和 PostgreSQL 的强大易用的客户端。
 - [HTTP 工具包](https://httptoolkit.tech)-HTTP 调试和模拟工具。 (https://github.com/httptoolkit)
 - [仅休息](https://github.com/SwensenSoftware/im-only-resting)-基于 WinForms 的功能丰富的 HTTP 客户端(https://github.com/swensensoftware/im-only-resting)
 - [Insomnia](http://insomnia.rest)-具有漂亮界面的现代 REST 客户端。
-- [Keylord](https://protonail.com/products/keylord)用于 Redis，LevelDB 和 Memcached 键值数据库的跨平台 GUI 客户端。
 - [Mamp](https://www.mamp.info/en/)-本地服务器环境。
 - [合并](http://meldmerge.org/)-视觉差异和合并工具。 (https://gitlab.gnome.org/GNOME/meld/)
 - [NSudo](https://github.com/M2Team/NSudo/)-强大的系统管理工具。 (https://github.com/M2Team/NSudo/)
 - [Open Server](https://ospanel.io/)-便携式服务器平台和软件环境（例如 MAMP，XAMPP，WAMP，非常用户友好）。
 - [Pixie](http://www.nattyware.com/pixie.php)-适用于开发人员的简单颜色选择器。
 - [pngquant](https://pngquant.org/)-使用或 wi 在 PNG 文件上应用有损压缩
-- [PostgreSQL 数据库](http://wiki.postgresql.org/wiki/Community_Guide_to_PostgreSQL_GUI_Tools)-全面的工具列表。
 - [邮递员](https://www.getpostman.com/postman)-REST 客户端具有直观的用户界面，可以发送请求，保存响应，添加测试以及创建工作流。
 - [流程浏览器](https://technet.microsoft.com/zh-cn/sysinternals/processexplorer.aspx)-强大的任务管理器。
 - [Process Hacker](http://processhacker.sourceforge.net/)-出色的全面任务管理器。
 - [进程监视器](https://docs.microsoft.com/zh-cn/sysinternals/downloads/procmon)-sysinternal 工具显示实时文件系统，注册表，网络和进程/线程活动。
-- [RazorSQL](http://www.razorsql.com/)-用于管理 SQLite 数据库的 GUI，需要进行大量工作。
-- [Redis Desktop Manager](http://redisdesktop.com/)跨平台的开源 Redis DB 管理工具。
-- [Robo 3T](https://robomongo.org/)-适用于 MongoDB 爱好者的轻量级 GUI。
-- [SourceTree](https://www.sourcetreeapp.com/)-免费的 Git 和 Mercurial 客户。
-- [Sql Wave](http://www.valentina-db.com/en/sqlwave)-一个 MySQL 数据库管理器。
-- [SSLyog](https://www.webyog.com/)-强大的 MySQL 管理工具
 - [TailBlazer](https://github.com/RolandPheasant/TailBlazer)-一种用于浏览日志的小型快速工具(https://github.com/RolandPheasant/TailBlazer)
 - [TortoiseGit](https://tortoisegit.org/)-具有完整 Shell 集成的 Git 客户端。 (https://github.com/tortoisegit/tortoisegit/)
 - [塔](https://www.git-tower.com/windows)-塔-Mac 和 Windows 上功能最强大的 Git 客户端。
@@ -175,11 +163,23 @@
 - [Xampp](https://www.apachefriends.org/index.html)-Apache 驱动的 Web 开发环境。
 - [Xftp 5](https://www.netsarang.com/products/xfp_overview.html)-灵活轻便的 SFTP / FTP 客户端。
 - [Zsh](http://www.zsh.org/)-功能强大的命令行外壳。 (http://sourceforge.net/p/zsh/code/ci/master/tree/)
-
+### 数据库
+- [HeidiSQL](http://www.heidisql.com/)-适用于 MySQL，MariaDB，Microsoft SQL Server 和 PostgreSQL 的强大易用的客户端。
+- [Sql Wave](http://www.valentina-db.com/en/sqlwave)-一个 MySQL 数据库管理器。
+- [SSLyog](https://www.webyog.com/)-强大的 MySQL 管理工具
+- [用于 SQLite 的数据库浏览器](http://sqlitebrowser.org/)-用于创建，设计和编辑与 SQLite 兼容的数据库文件的高质量，可视，开放源代码工具[ ](http://sqlitebrowser.org/)
+- [Keylord](https://protonail.com/products/keylord)用于 Redis，LevelDB 和 Memcached 键值数据库的跨平台 GUI 客户端。
+- [RazorSQL](http://www.razorsql.com/)-用于管理 SQLite 数据库的 GUI，需要进行大量工作。
+- [Redis Desktop Manager](http://redisdesktop.com/)跨平台的开源 Redis DB 管理工具。
+- [Robo 3T](https://robomongo.org/)-适用于 MongoDB 爱好者的轻量级 GUI。
 ### 文档
-
 - [WPS Office](https://www.wps.com/office-free)-完美的免费办公软件
-
+### git客户端
+- [Fork](https://git-fork.com/)-适用于 Windows（和 Mac）的快速友好的 Git 客户端。
+- [Git 扩展程序](https://gitextensions.github.io/)-一个功能强大且易于使用的 Git UI。 (https://github.com/gitextensions/gitextensions)
+- [GitHub Desktop](https://desktop.github.com/)-GitHub Desktop 是一个基于 Electron 的开源 GitHub 应用。 (https://github.com/desktop/desktop)
+- [GitKraken](https://www.gitkraken.com/)-一个漂亮的跨平台 Git 客户端。
+- [SourceTree](https://www.sourcetreeapp.com/)-免费的 Git 和 Mercurial 客户。
 ### 电子书实用程序
 
 ### 电子邮件
@@ -212,9 +212,9 @@
 - [Neovim](https://neovim.io/) - vim 真正的继任者。
 - [Visual Studio Code](https://code.visualstudio.com/) - 用于构建和调试现代 Web 和云应用程序。 (https://github.com/Microsoft/vscode)
 - 打开大文件
-  - less命令
-  - logview 推荐
-  - emeditor
+  - less命令: 只能查看
+  - logview 只能查看
+  - emeditor 可编辑
 
 ### 十六进制编辑器
 
@@ -239,6 +239,7 @@
 - [百度网盘](https://pan.baidu.com/)
 - [阿里云盘](https://www.aliyundrive.com/)
 - [蓝奏云](https://www.lanzou.com/)
+- [4275](https://4275.com/) 200M以内
 
 ### 备份
 
@@ -248,7 +249,7 @@
 - [Everything](http://www.voidtools.com/) - 最快的文件/文件夹搜索工具， 通过名称搜索。
 - [f.lux](http://stereopsis.com/flux/) - 自动调整您的计算机屏幕亮度以适应当前环境亮度。
 
-### 终端
+### 远程终端工具
 
 - [MobaXterm](http://mobaxterm.mobatek.net/) - Xserver 和标签式 SSH 客户端。
 - [MTPuTTY](http://ttyplus.com/multi-tabbed-putty/) - 多标签 PuTTY。
@@ -264,6 +265,7 @@
 - [Rufus](https://rufus.akeo.ie/) - 创建 USB 启动盘。
 - [Unlocker](http://www.softpedia.com/get/System/System-Miscellaneous/Unlocker.shtml) - 解除无法删除文件的锁定。
 - [delapp](https://github.com/differentrain/Delapp) - 删除被占用的文件
+- [lockhunter](https://lockhunter.com/) - 删除被占用的文件
 - [Windows 终端命令的 A-Z](http://ss64.com/nt/)
 - [trafficmonitor] 显示当前网速
 - [clumsy] 模拟弱网环境(阿里云盘)

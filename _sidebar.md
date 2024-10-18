@@ -1,6 +1,6 @@
 <!-- _sidebar.md -->
 
-* [Android](/notes/android/index.md)
+* [Android](/notes/android/multiplatform.md)
 * [音视频](/notes/media/index.md)
 * [前端](/notes/front/index.md)
 * [后端](/notes/server/index.md)
@@ -11,3 +11,4 @@
 * [linux](/notes/linux/index.md)
 * [python](/notes/python/index.md)
 * [java](/notes/java/index.md)
+* [ai工具](/notes/ai.md)

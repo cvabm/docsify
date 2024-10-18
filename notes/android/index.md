@@ -1,4 +1,5 @@
   #### android
+  * [跨平台](./multiplatform.md)
   * [应用市场](/notes/android/other/appstore.md)
   * [json](/notes/android/other/json.md)
   * [xml](/notes/android/other/xml.md)

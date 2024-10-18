@@ -19,8 +19,14 @@
 - https://github.com/Baseflow/PhotoView 支持手势缩放
 
 ### 图表
-- https://github.com/PhilJay/MPAndroidChart
-
+- https://github.com/LambdaXiao/StockChart-MPAndroidChart 首选
+- https://github.com/PhilJay/MPAndroidChart 赞数最多，版本低需改代码
+- https://github.com/xcltapestry/XCL-Charts
+- https://github.com/AnyChart/AnyChart-Android
+- https://github.com/patrykandpatrick/vico
+- https://github.com/halfhp/androidplot
+- https://github.com/diogobernardino/williamchart
+- 
 ### 引导蒙层
 - https://github.com/qiushi123/GuideView-master
 ### 扫码
