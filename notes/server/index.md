@@ -11,8 +11,10 @@
 - https://github.com/pereorga/minimalist-web-notepad 剪切板
 ### 远程工具
 - https://github.com/lollipopkit/flutter_server_box 手机端
-
-
+### 数据库工具
+- DBeaver 
+- heidisql 
+- [mysql](./mysql.md)
 ### 第三方服务
 - [导航](/notes/third-party/index.md)
 

@@ -12,3 +12,4 @@
 * [python](/notes/python/index.md)
 * [java](/notes/java/index.md)
 * [ai工具](/notes/ai.md)
+* [java](/notes/compute.md)

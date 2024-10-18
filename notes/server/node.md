@@ -64,3 +64,54 @@ node server.js
 
 ### 方式二
 - `npx http-server .`
+
+## npm
+### 查看镜像源
+```
+// 查看镜像源
+npm config get registry
+
+// 设置镜像源
+npm config set registry http://registry.npm.taobao.org/
+npm config set registry https://registry.npmjs.org/
+```
+### 设置代理
+```
+// 查看代理
+npm config get proxy
+npm config get https-proxy
+
+// 设置代理
+npm config set proxy http://127.0.0.1:8080
+npm config set https-proxy http://127.0.0.1:8080
+
+// 删除代理
+npm config delete proxy
+npm config delete https-proxy
+```
+## yarn
+### 配置镜像源
+```
+// 查看镜像源
+yarn config get registry
+
+// 设置镜像源
+yarn config set registry http://registry.npm.taobao.org/
+yarn config set registry https://registry.npmjs.org/
+
+```
+### 设置代理
+```
+// 查看代理
+yarn config get proxy
+yarn config get https-proxy
+
+// 设置代理
+yarn config set proxy http://127.0.0.1:8080
+yarn config set https-proxy http://127.0.0.1:8080
+
+// 删除代理
+yarn config delete proxy
+yarn config delete https-proxy
+
+```

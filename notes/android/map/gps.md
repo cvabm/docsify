@@ -1,5 +1,11 @@
 ## 原生gps
 - [展示wgs84位置](#wgs84)
+### gps测试app
+- https://github.com/barbeau/gpstest
+- https://github.com/mendhak/gpslogger
+- https://github.com/android/location-samples.git 必须google sevice
+
+
 ###  通过经纬度显示到地图
 - 第一种方式
 `https://www.openstreetmap.org/`  
@@ -13,12 +19,7 @@ LocationManager towerLocationManager = (LocationManager) getSystemService(Contex
 towerLocationManager.sendExtraCommand("gps", "force_xtra_injection", bundle); //快速定位command
 towerLocationManager.sendExtraCommand("gps", "force_time_injection", bundle);
 towerLocationManager.sendExtraCommand("gps", "delete_aiding_data", bundle); //冷启动
-```
-
-- https://github.com/android/location-samples.git 必须google sevice
-- https://github.com/mendhak/gpslogger 
-- https://github.com/barbeau/gpstest
- 
+``` 
  ### NMEA几种格式
  GNRMC/GPGGA/PSTMDRGPS比较  
 

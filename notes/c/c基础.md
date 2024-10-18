@@ -1,16 +1,84 @@
 # c基础
 
-slug: c
-status: Published
-tags: java
-summary: c语言
-type: Post
+## 命令行
+- `./main &` 当前目录运行main，&表示后台运行，不阻塞命令行
+- `#pragma once` 预防头文件被多次包含
+- 
 
-## 一些教程
+### 引用参数传递 vs 指针参数传递
+#### 使用引用的示例
 
-makefile
+```cpp
 
-## makefile 中一条语句这样： .c.o： gcc -c -o $*.o $<
+复制代码已复制
+bool GetLocalIp(std::string &result) {
+    // 假设获取到的 IP 地址是 "192.168.1.1"
+    result = "192.168.1.1";
+    return true; // 返回成功
+}
+
+// 调用示例
+std::string ip;
+if (GetLocalIp(ip)) {
+    std::cout << "Local IP: " << ip << std::endl;
+}
+```
+
+#### 使用指针的示例
+
+```cpp
+
+复制代码已复制
+bool GetLocalIp(std::string *result) {
+    if (result == nullptr) {
+        return false; // 检查指针是否为 nullptr
+    }
+    // 假设获取到的 IP 地址是 "192.168.1.1"
+    *result = "192.168.1.1";
+    return true; // 返回成功
+}
+
+// 调用示例
+std::string ip;
+if (GetLocalIp(&ip)) {
+    std::cout << "Local IP: " << ip << std::endl;
+}
+```
+
+#### 总结
+
+* **引用**：更简洁和安全，适合大多数情况，尤其是当你不需要处理空值时。
+* **指针**：提供了更大的灵活性，但需要额外的空指针检查，适合需要动态内存管理的场景。
+
+在选择使用哪种方式时，可以根据具体的需求和代码风格来决定。一般来说，引用更常用，因为它更简洁且易于理解。
+
+
+### string vs string.h
+```
+string c++，自动管理内存，功能更丰富
+string.h c，需手动处理内存，较低级
+```
+###  引用头文件
+- <> 包含标准库或第三方库的头文件
+- "" 用于包含自定义的头文件或项目中的其他模块的头文件
+
+
+### 暂停
+- windows
+    ```
+    #include <cstdlib> // 包含 system 函数的头文件
+      system("pause");
+    ```
+- linux
+    ```
+    std::cout << "Press Enter to continue...";
+    std::cin.get();
+
+    ```
+
+
+## makefile
+- makefile 中一条语句这样： .c.o： gcc -c -o $*.o $<
 
 ```
 .c.o:
@@ -48,60 +116,14 @@ cfree -
 
 devc++ -
 
-## c 使用
-
-- 编译过程
+## gcc编译过程
     - `gcc -E main.c -o main.i` 预处理:对代码宏展开
     - `gcc -S main.i -o main.s` 编译 ->汇编
     - `gcc -c main.s -o main.o` 汇编 ->二进制
     - `gcc main.o -o hello` 链接，成为可执行文件
-- `gcc` linux 生成.out windows 为.exe
-- `puts "hello"` 不带格式打印
-- `printf("Name: %s\n", name);` %s 输入字符串、%d 整数、%f 浮点数、%c 字符
-    - 返回值为字符数量
-- `scanf("%d", &num);` 从标准输入读取
-- `std::cout << "hello" <<std::endl;`
-- `&str`str 内存地址
-- `abort();` // 调用 abort()函数，人为引发 SIGABRT 信号
-- `~ResourceHolder(){ 释放资源 }` 析构函数，只能有一个，释放资源的作用
-- `__LINE__`
-    - 当前行号,预定义宏，不用导入直接用
-    - `__FILE__`文件名
-    - `__DATE__`编译日期
-    - `_WIN64` 表示当前为 64 位系统
-- `virtual 返回类型 函数名(参数列表) = 0;` 纯虚函数,无实现，派生类必须实现该函数
-- `volatile` 当一个变量被多个线程同时访问时，使用 volatile 可以确保对该变量的修改对其他线程是可见的
-- 操作符
-    - `&x`表示取变量 x 的地址
-    - ``解引用操作符，获取指针指向的对象的值
-    - `>`用于访问指针指向的对象的成员
-    - `sizeof()` 获取对变量或类型的占字节数
-    - `typedef int Age` 将 int 类型取个别名为 Age
-- 指针
-    - `int * p = &num` 指针 p 记录 num 的地址
-    - `sizeof(int*)` 获取指针占位，32 位 4 字节，64 位 8 字节
-    - `int * a`空指针指向编号为 0 的地址，不能操作
-    - `int *pointer; *pointer = 42;`// 野指针：未初始化的指针，试图给未初始化的指针赋值
-    - `int& r = i` 引用变量，r 和 i 引用同一块内存空间，相当于同一个变量不同名称
-- 其他
-    - `a << 2` 左移，相当于`a * 2`
-    - `a >> 2` 右移，相当于 `a / 2`
-    - `0b1011` 0b 开头的表示为二进制数
-    - `0x` 0x 开头为十六进制
-- ip 地址和网络地址 IP 地址用于标识和寻址网络中的具体设备，而网络地址则表示划分网络的标识符。IP 地址是设备的独特标识，而网络地址是为了确定特定网络而划分的标识。
-- 掩码
 
-```
-我们希望将该二进制数的第3位（从右到左）设置为0，其他位保持不变。我们可以创建一个掩码，只有第3位设置为0，其他位都是1，然后将掩码与原始数进行逻辑与运算。这将导致第3位被强制设置为0，而其他位保持不变。
-  // 原始二进制数
-       int binary = 0b10110101;
-       // 控制特定位的掩码
-       int mask = ~(1 << 2);  // 第3位 (从右到左) 置零
-       // 应用掩码
-       int result = binary & mask;
-       System.out.println("Result: " + Integer.toBinaryString(result));
+## [常用关键字](./keyword.md)
 
-```
 
 - `函数模板`
 - 两个值交换
